@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <h1>Cupcakes</h1>
+    <div>
+        <ul id="cupcakes">
+        </ul>
+    </div>
+    <div>
+        <h2>Add a new cupcake!</h2>
+        <form id="new-cupcake">
+            <label for="flavor">Flavor: </label>
+            <input type="text" name="flavor" id="flavor">
+
+            <label for="size">Size: </label>
+            <input type="text" name="size" id="size">
+
+            <label for="image">Image URL: </label>
+            <input type="text" name="image" id="image">
+
+            <label for="rating">Rating: </label>
+            <input type="text" name="rating" id="rating">
+
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="static/app.js"></script>
+</body>
+
+</html>
